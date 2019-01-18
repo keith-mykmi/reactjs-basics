@@ -3,9 +3,11 @@ import React from "react";
 export class Home extends React.Component {
     constructor(props) {
         super();
+        //you should apply props to your state, 
+        //unless it is the initialvalue
         this.state = {
             age: props.initialAge,
-            status: 0
+            status: 0 
         };
         setTimeout(() => {
             this.setState({
@@ -15,6 +17,8 @@ export class Home extends React.Component {
     }
 
     onMakeOlder() {
+        //this method allows you to change your state
+        //and when changed, react triggers a re-render
         this.setState({
             age: this.state.age + 3
         });
