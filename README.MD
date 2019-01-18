@@ -1,6 +1,9 @@
 # ReactJS Basics
 
-This repository accompanies my ReactJS - Basics YouTube Series.
+# Changes
+Changes take plain in home.js
 
-# Usage
-Switch to the branch you're interested in (branches = different stages in the series) and compare/ download the source code.
+- insert button
+- insert function 
+- refer to button in onClick
+- bind class object to function
