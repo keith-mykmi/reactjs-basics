@@ -11,6 +11,8 @@ class App extends React.Component {
           homeLink: "Home"
         };
     }
+    //I want to call this method from
+    //a child component
 
     onGreet() {
         alert("Hello!");
@@ -35,7 +37,7 @@ class App extends React.Component {
                         <Home
                             name={"Max"}
                             initialAge={27}
-                            greet={this.onGreet}
+                            greet={this.onGreet}//do not use "this, no need to bind
                             changeLink={this.onChangeLinkName.bind(this)}
                             initialLinkName={this.state.homeLink}
                         />
