@@ -38,7 +38,8 @@ class App extends React.Component {
                             name={"Max"}
                             initialAge={27}
                             greet={this.onGreet}//do not use "this, no need to bind
-                            changeLink={this.onChangeLinkName.bind(this)}
+                            changeLink={this.onChangeLinkName.bind(this)} //allow this to be called by home component, bind 
+                                                                          // to allow "this" to refer to object
                             initialLinkName={this.state.homeLink}
                         />
                     </div>
