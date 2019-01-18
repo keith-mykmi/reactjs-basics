@@ -40,6 +40,9 @@ export class Home extends React.Component {
                 <hr/>
                 <button onClick={() => this.onMakeOlder()} className="btn btn-primary">Make me older!</button>
                 <hr/>
+            {
+                //insert the greet prop (remember proptypes)      
+            }
                 <button onClick={this.props.greet} className="btn btn-primary">Greet</button>
                 <hr/>
                 <input type="text" value={this.state.homeLink}
