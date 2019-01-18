@@ -1,6 +1,7 @@
-# ReactJS Basics
+# Stateless Components
 
-This repository accompanies my ReactJS - Basics YouTube Series.
+We can set up "Stateless Components"
 
-# Usage
-Switch to the branch you're interested in (branches = different stages in the series) and compare/ download the source code.
+- Performance
+- Manageability
+- Props can still be used
